@@ -6,7 +6,7 @@ import toast, { Toaster } from "react-hot-toast";
 
 const notify = () =>
   toast("Copied to clipboard!", {
-    icon: "🙌",
+    icon: "👍",
     style: {
       borderRadius: "20px",
     },
@@ -52,7 +52,7 @@ export default function Home() {
               >
                 <IoCopyOutline />
               </button>
-              <Toaster />
+              <Toaster position="bottom-right" reverseOrder={false} />
             </pre>
           </div>
         </div>
