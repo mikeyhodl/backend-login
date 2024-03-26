@@ -4,6 +4,9 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// cloudflare
+export const runtime = "edge";
+
 export const metadata: Metadata = {
   title: "Password Generator",
   description: "Password Generator",
